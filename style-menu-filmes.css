@@ -206,7 +206,7 @@ body::before {
 /* ---- LAYOUT DESKTOP ---- */
 /* AJUSTE DO CONTAINER PRINCIPAL */
 .container {
-  margin-left: 60px;
+  margin-left: 100px;
   width: 80%;
   display: grid;
   gap: 10px;
@@ -261,7 +261,7 @@ body::before {
 /* ---- LAYOUT DESKTOP ---- */
 /* AJUSTE DO CONTAINER PRINCIPAL */
 .container2 {
-  margin-left: 60px;
+  margin-left: 100px;
   margin-bottom: 30px;
   width: 80%;
   display: grid;
@@ -337,34 +337,7 @@ body::before {
     z-index: 20;
 }
 
-/* ---- BARRA VERDE EMBAIXO ---- */
-.bottom-label {
-    font-family: "Stack Sans Notch", sans-serif;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 
-    background: #ffffff; /* VERDE */
-    color: #100e1c;
-
-    padding: 10px 15px;
-    font-size: 18px;
-    font-weight: bold;
-
-    text-align: left;
-
-    border-radius: 0 0 10px 10px;
-
-    z-index: 15;
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
-    color: #777;
-}
 
 /* ---- POSIÇÕES ---- */
 .header  { grid-area: header; }

@@ -215,7 +215,7 @@ body::before {
 
 .container {
     width: 1200px;
-    margin: 100px auto 40px auto; 
+    margin: 100px auto 40px auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 10px;
@@ -255,7 +255,7 @@ body::before {
 
 .photo-box:hover {
     transform: scale(1.04);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
 
 .photo-box:hover img {
@@ -312,7 +312,7 @@ body::before {
 ========================== */
 
 .bottom-label {
-    background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
     padding: 20px;
     font-size: 1.1rem;
     color: #fff;
@@ -345,8 +345,3 @@ body::before {
         grid-template-columns: 1fr;
     }
 }
-
-
-
-
-

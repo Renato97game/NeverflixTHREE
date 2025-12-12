@@ -312,7 +312,13 @@ body::before {
     transform: scale(1.02);
 }
 
-
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #777;
+}
 
 
 /* ---- TAG NO CANTO SUPERIOR DIREITO ---- */
